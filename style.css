@@ -32,14 +32,12 @@ body {
 .box:before {
   left: 30px;
   top: 0px;
-  background-color: pink;
   animation: spScaleAlphaBefore 1s infinite linear;
 }
 
 .box:after {
   left: -30px;
   top: -23px;
-  background-color: yellow;
   animation: spScaleAlphaAfter 1s infinite linear;
 }
 
