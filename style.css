@@ -1,10 +1,11 @@
 body {
   padding: 50px;
   background-color: #000;
+    margin: auto 0;
 }
 
 .container {
-  width: 300px;
+  width: 150px;
   text-align: center;
 }
 
@@ -38,7 +39,7 @@ body {
 
 .box:after {
   left: -30px;
-  top: -23px;
+  top: -18px;
   background-color: #FFF;
   animation: spScaleAlphaAfter 1s infinite linear;
 }
