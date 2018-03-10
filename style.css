@@ -1,7 +1,29 @@
+
+:root {
+  --background: #000;
+  --bold: #eeee33;
+  --link: #ff6f69;
+}
+
+
 body {
   padding: 50px;
   background-color: #000;
     margin: auto 0;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+  color: var(--bold);
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: 200px 200px;
+   grid-auto-rows: 140px;
+   grid-gap: 20px;
+   justify-content: center;
 }
 
 .container {
